@@ -12,17 +12,37 @@ body {
 	);
 	display: flex;
 	align-items: center;
-	font-size: 3rem;
+	font-size: 2.5rem;
 	flex-direction: column;
 	color: rgb(25, 123, 123);
 }
+button {
+	padding: 5px 15px;
+	border-radius: 10px;
+	color: rgb(33, 208, 208);
+	border: 1px solid rgb(25, 123, 123);
+	background-color: rgba(25, 123, 123, 0.434);
+}
+button:hover {
+	cursor: pointer;
+	color: rgb(13, 65, 65);
+	background-color: rgba(25, 123, 123, 0.098);
+}
+
+p {
+	color: rgb(25, 123, 123);
+	font-size: 0.4em;
+	letter-spacing: 1.2px;
+}
 
 .title {
-	margin: 20px;
+	margin: 10px;
+	color: rgb(33, 208, 208);
+	letter-spacing: 2px;
 }
 
 .subtext {
-	color: rgb(99, 157, 157);
+	color: rgb(13, 65, 65);
 	font-size: 1.5rem;
 	margin-bottom: 10px;
 }
@@ -53,7 +73,7 @@ body {
 }
 
 .board > [data-status="mine"] {
-	background-color: rgb(215, 109, 109);
+	background-color: rgb(211, 126, 126);
 }
 
 .board > [data-status="number"] {
